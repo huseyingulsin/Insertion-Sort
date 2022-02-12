@@ -31,7 +31,7 @@ It is not ordered, so it is not best case. It is not exactly opposite than we ne
 Let's see how it works.
 [22,27,16,2,18,6]:
 
-i=0 **22**,27,16,2,18,6 --> 22 is stored and 27 started to stored one. So, 27 is greater than first. Let's continoue.
+i=0 **22**,27,16,2,18,6 --> 22 is stored and 27 started to compare with first element. So, 27 is greater than first.
 
 i=1 **22**,**27**,16,2,18,6 --> 27 was stored and 16 started to compare with stored ones. 16 is smaller than stored ones. So, 16 will go to beginning.
 
