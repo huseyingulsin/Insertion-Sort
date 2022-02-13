@@ -8,6 +8,7 @@
 *Average Case Complexity O(n2)*
 
 **So, what does the difference between these are?**
+
 Best Case complexity happens when elements are already sorted. In this situation, the algorithm checks n elements for n times. So, the algorithm works O(n), which also means is linear time.
 
 Worst Case complexity, happens when elements are totally opposite from what we need to. (eg: we need to descend but it is ascending or we need to ascend but it is descending). In this situation, the algorithm checks every element to compare with every element(except itself). So, the algorithm works O(n^2),
