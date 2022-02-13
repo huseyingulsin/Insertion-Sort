@@ -16,6 +16,7 @@ Worst Case complexity, happens when elements are totally opposite from what we n
 Average Case complexity, happens when elements are mixed. (but elements are not exactly descending or ascending).
 
 **Let's check how Insertion Sort algorithm works.**
+
 Firstly, the algorithm assumes that the first element is sorted. Then, takes the second element to compare. The first and second elements) are compared by the algorithm. If the first one is greater than the second one, then it comes to the right side of the second one. And it goes until all elements are sorted.
 
 
@@ -27,6 +28,7 @@ Firstly, the algorithm assumes that the first element is sorted. Then, takes the
 Check it in ascending order: [22,27,16,2,18,6]
 
 Firstly let's we check complexity:
+
 It is not ordered, so it is not best case. It is not exactly opposite than we need to, so it is not worst case. So, it is average case. Then time complexity is *o(n^2)*.
 
 Let's see how it works.
